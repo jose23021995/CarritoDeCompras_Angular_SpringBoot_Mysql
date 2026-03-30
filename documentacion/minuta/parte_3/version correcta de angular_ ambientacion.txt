@@ -1,14 +1,27 @@
-//CORROBORAMOS VERSION ACTUAL
-$ node -v
-v20.20.0
+⚙️ Configuración de entorno (Node + Angular)
+🔹 Actualización de Node.js (20 → 22)
+node -v
+nvm install 22.16.0
+nvm use 22.16.0
+node -v
 
-//DESDE nvm INSTALAMOS LA VERSION DEL CURSO
-$ nvm install 22.16.0
+✔ Resultado:
 
-//USAMOS ESA VERSION
-$ nvm use 22.16.0
-Now using node v22.16.0 (64-bit)
-
-//CORROBORAMOS VERSION ACTUAL
-$ node -v
 v22.16.0
+🔹 Cambio de Angular CLI (21 → 20.x)
+ng --version
+npm uninstall -g @angular/cli
+npm install -g @angular/cli@20.0.2 --force
+ng version
+
+✔ Resultado:
+
+Angular CLI: 20.3.22
+🔹 Limpieza (opcional)
+rm -rf node_modules
+rm package-lock.json
+npm install
+
+✅ Resultado final
+Node.js: 22.16.0
+Angular CLI: 20.3.22
