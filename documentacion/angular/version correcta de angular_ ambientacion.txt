@@ -1,0 +1,14 @@
+//CORROBORAMOS VERSION ACTUAL
+$ node -v
+v20.20.0
+
+//DESDE nvm INSTALAMOS LA VERSION DEL CURSO
+$ nvm install 22.16.0
+
+//USAMOS ESA VERSION
+$ nvm use 22.16.0
+Now using node v22.16.0 (64-bit)
+
+//CORROBORAMOS VERSION ACTUAL
+$ node -v
+v22.16.0
