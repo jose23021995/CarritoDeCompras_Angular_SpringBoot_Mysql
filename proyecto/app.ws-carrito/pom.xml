@@ -11,8 +11,8 @@
 	<groupId>pe.co.sinfloo.carrito</groupId>
 	<artifactId>app.ws-carrito</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>app.ws-carrito</name>
+	<description>Carrito de Compras Back end</description>
 	<url/>
 	<licenses>
 		<license/>
